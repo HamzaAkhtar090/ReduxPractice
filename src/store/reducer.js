@@ -1,13 +1,10 @@
 
-initialState = {
-  counter: 0,
+const initialState = {
+  counter: 3,
 }
 
 const reducer=(state = initialState , action)=>{
 
-
-
-  
   return state;
 }
-export {reducer};
+export default reducer;
